@@ -6,7 +6,7 @@ function [A, C, Z] = ldsPca(X, k, m)
 %   m: stacking order for the Hankel matrix
 % Output:
 %   A: k x k transition matrix
-%   C: k x d emission matrix
+%   C: d x k emission matrix
 %   Z: k x n latent variable
 %   Y: d x n reconstructed data
 % reference: Bayesian Reasoning and Machine Learning (BRML) chapter 24.5.3 p.507
